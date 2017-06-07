@@ -1,0 +1,5 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\WebAppSkyWizard.AccesoDatos\bin\Release\WebAppSkyWizard.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\WebAppSkyWizard.AccesoDatos\bin\Release\WebAppSkyWizard.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\WebAppSkyWizard.AccesoDatos\obj\Release\WebAppSkyWizard.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\WebAppSkyWizard.AccesoDatos\obj\Release\WebAppSkyWizard.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\WebAppSkyWizard.AccesoDatos\obj\Release\WebAppSkyWizard.AccesoDatos.csprojResolveAssemblyReference.cache
