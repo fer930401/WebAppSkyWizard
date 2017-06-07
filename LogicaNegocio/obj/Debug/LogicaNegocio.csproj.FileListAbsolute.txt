@@ -1,0 +1,57 @@
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\AjaxControlToolkit.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\AjaxControlToolkit.pdb
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\ar\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\cs\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\de\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\es\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\fr\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\he\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\hi\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\it\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\ja\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\ko\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\nl\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\pt\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\ru\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\jose.polledo\Documents\Visual Studio 2012\Projects\SkyWizardPruebaCase\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\AjaxControlToolkit.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\AjaxControlToolkit.pdb
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\ar\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\cs\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\de\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\es\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\fr\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\he\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\hi\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\it\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\ja\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\ko\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\nl\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\pt\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\ru\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\jose.polledo\documents\visual studio 2012\Projects\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\SkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

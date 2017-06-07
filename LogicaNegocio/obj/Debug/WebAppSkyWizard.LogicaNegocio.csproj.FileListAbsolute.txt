@@ -1,0 +1,7 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\bin\Debug\Datos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\bin\Debug\Datos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\obj\Debug\WebAppSkyWizard.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
