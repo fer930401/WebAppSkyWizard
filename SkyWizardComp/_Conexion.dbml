@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="skytex" Class="_ConexionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL;Initial Catalog=skytex;Persist Security Info=True;User ID=soludin_develop" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="skytexConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.icartphv" Member="icartphv">
+    <Type Name="icartphv">
+      <Column Name="art_cve" Type="System.String" DbType="NVarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="per_hor" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="per_ver" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nom_comer" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="uni_uso" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="uni_alt1" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="uni_alt2" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="fac_umcvt1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="fac_umcvt2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="origen_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="frac_aran" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="cst_ultcom" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="cst_repo" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="sw_activo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sw_fijo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="fec_ultact" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="id_ultact" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="criterio" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="tipo_tejido" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="art_tip" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="comp1_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="pct_comp1" Type="System.Decimal" DbType="Decimal(7,4)" CanBeNull="true" />
+      <Column Name="comp2_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="pct_comp2" Type="System.Decimal" DbType="Decimal(7,4)" CanBeNull="true" />
+      <Column Name="comp3_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="pct_comp3" Type="System.Decimal" DbType="Decimal(7,4)" CanBeNull="true" />
+      <Column Name="cc_tipo" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Column Name="cc_cve" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.icarttip" Member="icarttip">
+    <Type Name="icarttip">
+      <Column Name="art_tip" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="sw_ele_bd" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="uni_uso" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="uni_alt1" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="uni_alt2" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="cc_cve" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="cc_tipo" Type="System.Char" DbType="NChar(1)" CanBeNull="true" />
+      <Association Name="icarttip_icartesp" Member="icartesp" ThisKey="art_tip" OtherKey="art_tip" Type="icartesp" />
+    </Type>
+  </Table>
+  <Table Name="dbo.icartinf" Member="icartinf">
+    <Type Name="icartinf">
+      <Column Name="art_tip" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="catalogo_cve" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="inf_cve" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="inf_nom" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="inf_nomlgo" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.icartesp" Member="icartesp">
+    <Type Name="icartesp">
+      <Column Name="art_cve" Type="System.String" DbType="NVarChar(13) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="iva_cve" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ieps_cve" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="sw_sku" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sw_inv" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="sw_bascula" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="fec_ultact" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="id_ultact" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="art_tip" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctg_cve" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="cmp_tip" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="cmp_cve" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="cmp_cant" Type="System.Decimal" DbType="Decimal(19,4)" CanBeNull="true" />
+      <Column Name="origen_tipo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="sw_critico" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="status" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cant_minalm" Type="System.Decimal" DbType="Decimal(19,4)" CanBeNull="true" />
+      <Column Name="lote_std" Type="System.Decimal" DbType="Decimal(19,4)" CanBeNull="true" />
+      <Column Name="forcom_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="forent_cve" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="pf_tip" Type="System.String" DbType="NChar(3)" CanBeNull="true" />
+      <Column Name="pf_cve" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Association Name="icarttip_icartesp" Member="icarttip" ThisKey="art_tip" OtherKey="art_tip" Type="icarttip" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xuarrays" Member="xuarrays">
+    <Type Name="xuarrays">
+      <Column Name="prg_cve" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="array_nom" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="orden" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="pant" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ren" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="col" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xuarttip" Member="xuarttip">
+    <Type Name="xuarttip">
+      <Column Name="prg_cve" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="art_tip" Type="System.String" DbType="NChar(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xuseldyn" Member="xuseldyn">
+    <Type Name="xuseldyn">
+      <Column Name="prg_cve" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sel_texto" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="sel_where" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sel_order" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xuprogs" Member="xuprogs">
+    <Type Name="xuprogs">
+      <Column Name="ss_cve" Type="System.Char" DbType="NChar(1) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="prg_cve" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(40) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.xcdic" Member="xcdic">
+    <Type Name="xcdic">
+      <Column Name="tabla" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="campo" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctop" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="cleft" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="csize" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="orden" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="label" Type="System.String" DbType="NVarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="ltop" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="lleft" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="lsize" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_act" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tipo_val" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="sys_var" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_cc" Type="System.String" DbType="NChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tipo_for" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="sw_busqueda" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_ccc" Type="System.String" DbType="NChar(6)" CanBeNull="true" />
+      <Column Name="tipo_combo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="size_text" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="balin2" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="balin3" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="balin4" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="balin5" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="balin6" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="balin7" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sw_principal" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="dato_default" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="sp" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="sw_retain" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="web_obj" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
