@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizard\SkyWizardComp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Acciones.aspx">
+      <publishTime>01/13/2017 11:31:06</publishTime>
+    </File>
+    <File Include="AddArt.aspx">
+      <publishTime>03/21/2017 08:45:46</publishTime>
+    </File>
+    <File Include="App_LocalResources/Buscar.aspx.resx">
+      <publishTime>02/11/2016 16:46:10</publishTime>
+    </File>
+    <File Include="AutoBusqueda.aspx">
+      <publishTime>01/11/2017 11:45:39</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>12/14/2013 11:04:02</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.pdb">
+      <publishTime>12/14/2013 11:04:02</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>12/04/2013 16:25:36</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:03</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:03</publishTime>
+    </File>
+    <File Include="bin/Datos.dll">
+      <publishTime>03/22/2017 15:26:40</publishTime>
+    </File>
+    <File Include="bin/Datos.pdb">
+      <publishTime>03/22/2017 15:26:40</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:03</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:45</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/Diseño.dll">
+      <publishTime>03/22/2017 15:26:42</publishTime>
+    </File>
+    <File Include="bin/Diseño.pdb">
+      <publishTime>03/22/2017 15:26:42</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:03</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:45</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ExfSoft.Json.dll">
+      <publishTime>03/18/2016 11:24:23</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:03</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:45</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>12/04/2013 16:25:36</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:45</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/Json.dll">
+      <publishTime>03/18/2016 11:24:01</publishTime>
+    </File>
+    <File Include="bin/Json.pdb">
+      <publishTime>03/18/2016 11:24:01</publishTime>
+    </File>
+    <File Include="bin/JsonLD.dll">
+      <publishTime>03/18/2016 11:24:28</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/18/2016 11:24:51</publishTime>
+    </File>
+    <File Include="bin/log4net.Ext.Json.dll">
+      <publishTime>03/18/2016 11:24:51</publishTime>
+    </File>
+    <File Include="bin/log4net.Ext.Json.Serializers.Newtonsoft.dll">
+      <publishTime>03/18/2016 11:24:51</publishTime>
+    </File>
+    <File Include="bin/LogicaNegocio.dll">
+      <publishTime>03/22/2017 15:26:41</publishTime>
+    </File>
+    <File Include="bin/LogicaNegocio.pdb">
+      <publishTime>03/22/2017 15:26:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>12/04/2013 16:25:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
+      <publishTime>10/05/2013 03:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Configuration.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.WindowsAzure.Storage.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/Moonmile.ExDocPcl.Json.dll">
+      <publishTime>03/18/2016 11:25:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/18/2016 11:23:40</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:05</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:04</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:05</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Text.dll">
+      <publishTime>03/18/2016 11:25:01</publishTime>
+    </File>
+    <File Include="bin/StackExchange.Redis.dll">
+      <publishTime>03/18/2016 11:24:15</publishTime>
+    </File>
+    <File Include="bin/StackExchange.Redis.pdb">
+      <publishTime>03/18/2016 11:24:15</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>03/18/2016 11:23:22</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.pdb">
+      <publishTime>03/18/2016 11:23:22</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/TagCache.Redis.dll">
+      <publishTime>03/18/2016 11:24:15</publishTime>
+    </File>
+    <File Include="bin/TagCache.Redis.Json.Net.dll">
+      <publishTime>03/18/2016 11:24:15</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Design.dll">
+      <publishTime>09/29/2015 16:12:14</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.Device.Detection.dll">
+      <publishTime>09/29/2015 16:12:14</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>09/29/2015 16:12:14</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>09/29/2015 16:12:14</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:05</publishTime>
+    </File>
+    <File Include="bin/Unity.Newtonsoft.Json.dll">
+      <publishTime>03/18/2016 11:23:33</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:05</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>12/14/2013 11:04:05</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>12/04/2013 16:25:46</publishTime>
+    </File>
+    <File Include="Conexion/conexion.txt">
+      <publishTime>01/06/2017 11:20:07</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>12/17/2016 10:54:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/03/2016 12:34:56</publishTime>
+    </File>
+    <File Include="Estilos/BuscaEstilo.css">
+      <publishTime>04/02/2016 09:17:57</publishTime>
+    </File>
+    <File Include="Estilos/TablaHtml.css">
+      <publishTime>05/06/2016 16:03:47</publishTime>
+    </File>
+    <File Include="Estilos/wiz.css">
+      <publishTime>04/02/2016 09:17:57</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/23/2016 08:30:08</publishTime>
+    </File>
+    <File Include="Imagenes/barra_uno_Azul.png">
+      <publishTime>08/12/2011 15:01:01</publishTime>
+    </File>
+    <File Include="Imagenes/barra_uno_Azul_ANT.png">
+      <publishTime>07/29/2011 12:38:55</publishTime>
+    </File>
+    <File Include="Imagenes/Busca.png">
+      <publishTime>02/11/2016 13:34:47</publishTime>
+    </File>
+    <File Include="Imagenes/flechaAdelante.png">
+      <publishTime>08/06/2016 11:29:51</publishTime>
+    </File>
+    <File Include="Imagenes/flechaAtras.png">
+      <publishTime>08/06/2016 11:29:38</publishTime>
+    </File>
+    <File Include="Imagenes/fondo-de-pantalla-degradado-azul.jpg">
+      <publishTime>01/16/2016 08:32:16</publishTime>
+    </File>
+    <File Include="Imagenes/fondo-de-windows-7-azul-238.jpg">
+      <publishTime>01/16/2016 08:32:48</publishTime>
+    </File>
+    <File Include="Imagenes/fondo-gris-ok.jpg">
+      <publishTime>02/27/2016 12:13:45</publishTime>
+    </File>
+    <File Include="Imagenes/Fondo.png">
+      <publishTime>02/05/2016 12:45:45</publishTime>
+    </File>
+    <File Include="Imagenes/fondoAzulDegradado.jpg">
+      <publishTime>01/16/2016 12:01:37</publishTime>
+    </File>
+    <File Include="Imagenes/FondoAzulFace.jpg">
+      <publishTime>01/16/2016 11:10:48</publishTime>
+    </File>
+    <File Include="Imagenes/FondoMac.jpg">
+      <publishTime>02/05/2016 12:49:16</publishTime>
+    </File>
+    <File Include="Imagenes/FondoMac.png">
+      <publishTime>02/05/2016 13:02:47</publishTime>
+    </File>
+    <File Include="Imagenes/FondoMac2.jpg">
+      <publishTime>02/05/2016 12:49:50</publishTime>
+    </File>
+    <File Include="Imagenes/fondo_fotos.png">
+      <publishTime>07/29/2011 12:49:04</publishTime>
+    </File>
+    <File Include="Imagenes/fondo_gris_virtual.png">
+      <publishTime>02/27/2016 12:13:22</publishTime>
+    </File>
+    <File Include="Imagenes/GrisMetalBoton.jpg">
+      <publishTime>01/16/2016 10:34:19</publishTime>
+    </File>
+    <File Include="Imagenes/Home.png">
+      <publishTime>06/30/2016 16:45:21</publishTime>
+    </File>
+    <File Include="Imagenes/iphone-home-boton.jpeg">
+      <publishTime>06/30/2016 09:42:25</publishTime>
+    </File>
+    <File Include="Imagenes/iphoneButton.png">
+      <publishTime>06/30/2016 16:51:51</publishTime>
+    </File>
+    <File Include="Imagenes/logo.png">
+      <publishTime>01/07/2016 14:28:01</publishTime>
+    </File>
+    <File Include="Imagenes/LogoArticulos.png">
+      <publishTime>01/18/2016 14:18:52</publishTime>
+    </File>
+    <File Include="Imagenes/logo_azul.jpg">
+      <publishTime>11/24/2012 10:44:59</publishTime>
+    </File>
+    <File Include="Imagenes/logo_botoom_verde.png">
+      <publishTime>08/12/2011 20:05:00</publishTime>
+    </File>
+    <File Include="Imagenes/logo_botoom_verde_ANT.png">
+      <publishTime>07/29/2011 16:13:08</publishTime>
+    </File>
+    <File Include="Imagenes/Logo_sky_AV.png">
+      <publishTime>07/15/2011 11:42:15</publishTime>
+    </File>
+    <File Include="Imagenes/MenuCirculo.png">
+      <publishTime>06/30/2016 09:41:36</publishTime>
+    </File>
+    <File Include="Imagenes/NegroMate.jpg">
+      <publishTime>02/27/2016 12:15:32</publishTime>
+    </File>
+    <File Include="Imagenes/_gradiente_orange.jpg">
+      <publishTime>02/11/2016 16:06:05</publishTime>
+    </File>
+    <File Include="Imagenes/álbum1002b01.jpg">
+      <publishTime>01/16/2016 09:18:44</publishTime>
+    </File>
+    <File Include="jquery-1.11.2.js">
+      <publishTime>05/09/2016 08:52:49</publishTime>
+    </File>
+    <File Include="jquery-ui.css">
+      <publishTime>05/09/2016 07:14:18</publishTime>
+    </File>
+    <File Include="jquery-ui.js">
+      <publishTime>05/09/2016 07:14:18</publishTime>
+    </File>
+    <File Include="jquery.fcbkcomplete.js">
+      <publishTime>08/18/2015 04:47:50</publishTime>
+    </File>
+    <File Include="jquery.fcbkcomplete.min.js">
+      <publishTime>08/18/2015 04:47:50</publishTime>
+    </File>
+    <File Include="jquery.js">
+      <publishTime>05/09/2016 07:54:19</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/23/2016 08:30:09</publishTime>
+    </File>
+    <File Include="pop.html">
+      <publishTime>07/09/2016 13:00:49</publishTime>
+    </File>
+    <File Include="scriptcs/JsonMain.csx">
+      <publishTime>03/18/2016 11:25:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/26/2016 17:00:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/26/2016 17:00:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.2.js">
+      <publishTime>03/18/2016 11:36:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.2.min.js">
+      <publishTime>03/18/2016 10:40:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.2.min.map">
+      <publishTime>03/18/2016 11:38:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>01/26/2016 17:00:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>01/26/2016 17:00:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>01/26/2016 17:00:04</publishTime>
+    </File>
+    <File Include="Scripts/json-serialize.js">
+      <publishTime>03/18/2016 11:23:29</publishTime>
+    </File>
+    <File Include="Scripts/json-serialize.min.js">
+      <publishTime>03/18/2016 11:23:29</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>08/18/2015 04:47:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/22/2017 15:26:44</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>05/19/2016 09:56:31</publishTime>
+    </File>
+    <File Include="_Conexion.dbml">
+      <publishTime>03/22/2017 15:21:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

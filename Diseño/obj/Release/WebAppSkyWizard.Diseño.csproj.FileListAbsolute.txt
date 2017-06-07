@@ -1,0 +1,11 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\Diseño.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\Diseño.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\Diseño.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\WebAppSkyWizard.AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\bin\WebAppSkyWizard.AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\obj\Release\WebAppSkyWizard.Diseño.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\obj\Release\Diseño.dll.licenses
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\obj\Release\Diseño.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppSkyWizardCambio\Diseño\obj\Release\Diseño.pdb
